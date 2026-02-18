@@ -12,3 +12,7 @@ network:
             addresses:
               - 1.1.1.1
               - 1.0.0.1 #(You could equally use 8.8.8.8 and 8.8.4.4 for google but 1.1.1.1 is recommended for cloudflare)
+
+
+
+# Then Apply the changes with sudo netplan apply
